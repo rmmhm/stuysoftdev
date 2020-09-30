@@ -1,4 +1,4 @@
-#Ryan Ma
+#Ryan Ma, Jeffrey Huang, Dragos Lup
 #SoftDev
 #K05 -- Teamwork, but Better This Time
 #2020-09-30
