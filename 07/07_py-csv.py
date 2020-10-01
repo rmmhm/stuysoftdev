@@ -1,4 +1,5 @@
 # Ryan Ma, Pak Ming Lau, Constance Chen
+# Team Blue Bird
 # SoftDev
 # K07 -- Stl/O: Divine your Destiny!
 #   Reads from a file containing jobs and their percentages and then using those percentages to weight each job and give a random job
