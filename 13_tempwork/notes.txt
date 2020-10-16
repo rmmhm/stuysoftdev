@@ -1,0 +1,16 @@
+Team Goofy Gorilla - Ryan Ma, William Li
+SoftDev
+K13 -- Template for Success - more template work
+2020-10-19
+
+At first, we tried to incorporate html gang signs within the variables that were being referenced in
+render_template(), for example dictionary = percent_dict. However, what this did was print out
+everything including the html tags, which meant that what is printed out within {{}} in the
+template .html is interpreted as plaintext. By adding the tags into the tablified.html file itself
+solved the issue.
+
+The code for the occupation dictionary builder + chooser was first placed outside of any @app.route,
+but doing it this way made it so the chosen occupation wouldn't change upon each page refresh. I first
+moved it to @app.route("/"), but that gave us an error. Upon moving it to @app.route("/occupyflaskst"),
+it worked in the intended way, which tells us that any code that is necessary for the page that it is
+used in must be placed under that @app.route() so that upon page refresh, it will rerun the function.
