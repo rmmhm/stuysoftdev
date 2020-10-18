@@ -1,24 +1,24 @@
-Job Class,Percentage
-Management,6.1
-Business and Financial operations,5
-Computer and Mathematical,2.7
-Architecture and Engineering,1.7
-"Life, Physical and Social Science",0.9
-Community and Social Service,1.6
-Legal,0.8
-"Education, training and library",6.1
-"Arts, design, entertainment, sports and media",1.7
-Healthcare practioners and technical,5.5
-Healthcare support,2.8
-Protective service,2.3
-Food preparation and serving,8.3
-Building and grounds cleaning and maintenance,3.7
-Personal care and service,4
-Sales,10.2
-Office and administrative support,15.1
-"Farming, fishing and forestry",0.6
-Construction and extraction,4.3
-"Installation, maintenance and repair",3.8
-Production,6.1
-Transportation and material moving,6.5
+Job Class,Percentage,Website
+Management,6.1,https://datausa.io/profile/soc/management-occupations
+Business and Financial operations,5,https://datausa.io/profile/soc/business-financial-operations-occupations
+Computer and Mathematical,2.7,https://datausa.io/profile/soc/computer-mathematical-occupations#:~:text=Computer%20%26%20mathematical%20occupations%20are%20most,the%20Computer%20Systems%20Design%20industry.&text=The%20top%203%20most%20similar,and%20Business%20%26%20financial%20operations%20occupations.
+Architecture and Engineering,1.7,https://datausa.io/profile/soc/architecture-engineering-occupations
+"Life, Physical and Social Science",0.9,https://datausa.io/profile/soc/life-physical-social-science-occupations
+Community and Social Service,1.6,https://datausa.io/profile/soc/social-workers
+Legal,0.8,https://datausa.io/profile/cip/22
+"Education, training and library",6.1,https://datausa.io/profile/soc/education-training-library-occupations
+"Arts, design, entertainment, sports and media",1.7,https://datausa.io/profile/soc/arts-design-entertainment-sports-media-occupations
+Healthcare practioners and technical,5.5,https://datausa.io/profile/soc/healthcare-practitioners-technical-occupations
+Healthcare support,2.8,https://datausa.io/profile/soc/healthcare-support-occupations
+Protective service,2.3,https://datausa.io/profile/soc/protective-service-occupations
+Food preparation and serving,8.3,https://datausa.io/profile/soc/food-preparation-workers
+Building and grounds cleaning and maintenance,3.7,https://datausa.io/profile/soc/building-grounds-cleaning-maintenance-occupations
+Personal care and service,4,https://datausa.io/profile/soc/personal-care-service-workers-all-other-
+Sales,10.2,https://datausa.io/profile/soc/sales-related-occupations
+Office and administrative support,15.1,https://datausa.io/profile/soc/office-administrative-support-occupations
+"Farming, fishing and forestry",0.6,https://datausa.io/profile/soc/farming-fishing-forestry-occupations
+Construction and extraction,4.3,https://datausa.io/profile/soc/construction-extraction-occupations
+"Installation, maintenance and repair",3.8,https://datausa.io/profile/soc/installation-maintenance-repair-occupations-490000
+Production,6.1,https://datausa.io/profile/soc/production-occupations
+Transportation and material moving,6.5,https://datausa.io/profile/cip/transportation
 Total,99.8
