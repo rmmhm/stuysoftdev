@@ -1,0 +1,19 @@
+Ryan Ma
+SoftDev
+LJ00: Le Voyage de Learnination avec Mongo, Premiere Phase -- Mongo basics
+2020-10-29
+
+MongoDB is a NoSQL Document Database, meaning it is not stored in traditional rows+columns
+rather as a collection of documents
+
+A document is a way to organize and store data as a set of field-value pairs
+A field is a unique identifier for a datapoint
+A value is a data related to a given identifier
+A collection is a organized store of documents, with common fields between documents
+
+Atlas - cloud service for MongoDB
+      - deploys clusters, a group of servers that stores data
+Clusters form replica sets, connected servers that store the same data
+An instance is a single machine locally or in the cloud running a certain software
+
+Name of a cluster cannot be changed after creation. 
