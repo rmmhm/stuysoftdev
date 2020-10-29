@@ -16,4 +16,4 @@ Atlas - cloud service for MongoDB
 Clusters form replica sets, connected servers that store the same data
 An instance is a single machine locally or in the cloud running a certain software
 
-Name of a cluster cannot be changed after creation. 
+Name of a cluster cannot be changed after creation.

@@ -1,0 +1,50 @@
+Ryan Ma
+SoftDev
+LJ00: Le Voyage de Learnination avec Mongo, Premiere Phase -- Mongo basics
+2020-10-29
+
+JSON format
+- start and end with curly braces {}
+- separate each key and value with a colon :
+- separate each key:value pair with a comma ,
+- "keys" must be surrounded by quotation marks ""
+- "keys" are called "fields"
+
+BSON
+- binary encoding
+- more data type support than JSON
+- machine only readability
+
+MongoDB stores data in BSON internally and over the network
+JSON can be stored natively and retrieved in MongoDB
+
+Exporting Data
+- mongodump --uri "<Atlas Cluster URI>"
+    exports data in BSON
+- mongoexport --uri "<Atlas Cluster URI>"
+              --collection=<collection name> (specific collection)
+              --out=<filename>.json (name of exported file)
+    exports data in JSON
+
+URI - uniform resource identifier
+srv - establishes a secure connection
+    mongodb+srv://user:password@clusterURI.mongodb.net/database
+
+Importing Data
+- mongorestore --uri "<Atlas Cluster URI>"
+               --drop dump
+    imports data in BSON dump
+- mongoimport --uri "<Atlas Cluster URI>"
+              --drop=<filename>.json
+    imports data in JSON
+
+cursor - a pointer to a result set of a query
+pointer - a direct address of the memory location
+
+Querying in the shell
+- show dbs - shows databases in the cluster
+- use database - switch to specific database
+- show collections - shows collections in the database
+- db.collection.find(query) - query in JSON format
+- it - iterates through cursor
+- .count() - returns the number of documents that match the search query
