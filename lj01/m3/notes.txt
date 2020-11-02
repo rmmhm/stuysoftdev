@@ -1,0 +1,71 @@
+Ryan Ma
+SoftDev
+LJ01: Le Voyage de Learnination avec Mongo, Deuxieme Phase -- Mongo basics
+2020-11-12
+
+Every document must have a unique _id value
+Avoid organizing data into all the same or all the different
+
+ObjectId() - default value for the _id field unless otherwise specified
+_id
+  is automatically generated as an ObjectId type value
+  can be non ObjectId type manually, as long as it is unique
+
+when importing a collection/document,
+  --drop removes the existing one and inserts new one in field
+
+Inserting a Document via Data Explorer
+  "_id" : ObjectId(<>) - string
+  certificate_number : <> - Int32
+  date : <> - date or string
+  address : <> - object
+
+db.collection.findOne(<>) - check what documents of a collection are like
+
+Inserting a Document via Shell
+  db.collection.insert(<>)
+  inserting a document into a collection generates an unique _id value
+Cannot insert documents with the same _id field
+
+Inserting multiple documents
+  insert in the order listed in the .insert()
+  the moment there is an insert error, the rest of the .insert() command halts
+
+Inserting documents into a collection that doesn't exist creates that collection
+  same for databases
+
+MongoDB allows for data in a document to be stored however the user wants
+  concerning fields and values
+
+Updating documents via data explorer
+  + button when hovering over the line number
+
+Updating documents via shell
+  One document
+    updateOne()
+      if multiple documents queried are found, the first one found is updated
+      first arg - query
+      second arg - specifies the update
+  Many documents
+    updateMany({<>},{<>})
+      first arg - query
+      second arg - specifies the update
+
+{"$inc": {"<field>" : "<value>", ...}}
+increments given field(s) by given value(s)
+
+{"$set" : {"<field>" : "<value>", ...}}
+sets given field(s) to given value(s)
+  if a field doesnt exist, it gets added
+
+{"$push" : {"<field>" : "<value>", ...}}
+adds element(s) to array field(s)
+
+Deleting documents/collections
+  One
+    deleteOne()
+      only good for querying _id
+  Many
+    deleteMany()
+
+.drop() to delete a collection  
