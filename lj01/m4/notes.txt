@@ -1,0 +1,53 @@
+Ryan Ma
+SoftDev
+LJ01: Le Voyage de Learnination avec Mongo, Deuxieme Phase -- Mongo basics
+2020-11-12
+
+Comparison Operators
+  $eq = (default operator when an operator is not specified)
+  $neq !=
+  $gt >
+  $lt <
+  $gte >=
+  $lte <=
+    field comes before operator
+
+Logic Operators
+  $and all (default)
+    use explicity when its used more than once
+  $or >1
+  $nor all that !=
+    {<operator> : [{statement1},{statement2}]}
+  $not negates
+    {$not: {statement}}
+
+Expressive Query Operator
+  $expr
+    allows the use of variables and conditional statements
+    {$expr: {<expression1>},{<expression2>},...}
+    operator comes before field
+  $
+    denotes the use of an operator
+    addresses the field value
+
+Array Operators
+  $all
+    has at least these elements
+  $size
+    limits queried array result
+  $elemMatch
+    $elemMatch: {<query1>,<query2>,...}
+    matches documents that contain an array field with at least one
+    element in the specified query
+  <field>.<subdocument>.<subdocument>...
+    references subdocument
+  .<index>
+    references array element <index>
+
+
+Projection
+  {<field1>:#,<field2>:#,...}
+    specifies only these fields to be shown after a find query
+    1 = include
+    0 = exclude
+    cannot have both in one projection
