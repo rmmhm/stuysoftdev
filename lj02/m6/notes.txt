@@ -1,0 +1,16 @@
+Ryan Ma
+SoftDev
+LJ02: Le Voyage de Learnination avec Mongo, Troisième Phase -- Mongo basics
+2020-11-25
+
+Atlas creates, views, searches indexes, and creates aggregation pipelines to be imported to different languages
+Atlas can show multiple projects and their respective teams
+
+Realm helps with web and mobile app development
+
+Charts helps with data visualization
+
+never touch admin, config, and local databases
+
+Compass is an app like a data explorer for MongoDB
+  a Graphical User Interface

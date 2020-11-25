@@ -1,0 +1,24 @@
+Ryan Ma
+SoftDev
+LJ02: Le Voyage de Learnination avec Mongo, Troisième Phase -- Mongo basics
+2020-11-25
+
+Aggregation framework
+  .aggregate() takes in an array and works like a pipeline
+  {$match: {"amenities":"Wifi"}}, filters out files that don't have Wifi as an amenity
+  {$project: {"price": 1, "address": 1, "_id": 0}}, show only the price and address and exclude the id
+  $group takes in a stream of data and puts it into different distinct reservoirs
+    {$group:
+      {
+        _id: "$address.country", // Group By Expression
+        <field1>: {<accumulator1> : <expression1>},
+        ...
+      }}
+    groups all of the files with the same country into one file
+  .sort() is a cursor method
+    .find().sort()
+  .limit() sorts to a certain number of results
+  indexes to speed up queries
+    .createIndex({"birth year": 1}) creates an index based on birth year
+  upsert, update and insert, default is false
+    if there is a match, then update, if not, insert
