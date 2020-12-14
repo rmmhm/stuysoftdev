@@ -35,7 +35,6 @@ def logout():
     if(request.method == "POST"): # if the logout button has been pressed, otherwise keep displaying welcome page
         session.pop("username") # removes cookies upon logout
         session.pop("passw")
-        return render_template("login.html")
     if("username" in session and session["username"] == user and "passw" in session and session["passw"] == passw):
         return render_template("response.html", usern = session["username"])
     return render_template("login.html")
