@@ -1,0 +1,9 @@
+Pak Ming Lau and Ryan Ma
+Softdev p0
+K18 Filler and Finery - first steps into CSS
+2021-01-14
+
+Specific HTML tags can be stylized and called (body,h1,a,u1)
+Other parts can be stylized through <div class = "">
+
+Is there a way to not have to copy and paste the lorem ipsum text directly into index.html?

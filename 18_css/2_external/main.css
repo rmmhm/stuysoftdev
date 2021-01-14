@@ -1,0 +1,50 @@
+body {
+    background-color: #666666; 
+    font-family: Arial;
+}
+
+h1 {
+    color: #FFFFFF; 
+    background-color: #BEBEBE; 
+    text-align: center; 
+    margin-top: 10px;
+}
+
+a {
+    color: #FFFFFF; 
+    text-decoration: none;
+}
+
+ul {
+    padding: 0; 
+    list-style-type: none;
+}
+
+.left-body {
+    background-color: #767676; 
+    width: 24%; 
+    height: 86%; 
+    top: 47px; 
+    position: fixed; 
+    padding-left: 1%;
+}
+
+.right-body {
+    background-color: #767676; 
+    margin-left: 25%; 
+    width: 73%; 
+    height: 86%; 
+    top: 47px; 
+    position: fixed; 
+    padding-right: 1%;
+}
+
+.bottom {
+    color: #747673; 
+    background-color: #565656; 
+    text-align: right; 
+    width: 98%; 
+    position: fixed; 
+    bottom: 10px; 
+    padding-right: 1%;
+}
