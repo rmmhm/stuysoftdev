@@ -1,1 +1,8 @@
--files can be ignored through .gitignore
+Team cool-crabs Ryan Ma Carlos Hernandez
+SoftDev
+K19 -- Work with APIs and JSON
+2021-04-06
+
+Notes:
+- files can be ignored through .gitignore
+- Json with json.loads
