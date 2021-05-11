@@ -1,0 +1,16 @@
+Team CCC - Ryan Ma and Carlos Hernandez
+Softdev pd1
+K28 - Bubble Bubble Toil Trouble
+2021-05-13
+
+1 - generates an alert for the cell that was clicked
+2 - generates an alert for the cell that was clicked, then the row that contains the cell, then the entire table
+3 - generates an alert for the entire table, then the cell that was clicked, then the row that contains the cell
+4 - generates an alert for the entire table, then the row that contains the cell, then the cell that was clicked
+
+if e.stopPropagation(); is uncommented, only the first alert would pop up.
+
+the order that the event listeners are attached does not matter - the alerts still show up in the same order
+
+"var table = document.getElementsByTagName('table')[0];"
+- importance of the indexing (?)
